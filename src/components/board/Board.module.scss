@@ -1,0 +1,30 @@
+.board {
+    background: #00203F;
+    padding: 2%;
+    text-align: center;
+}
+
+.boardItems {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+
+.contained{
+    background: #00203F;
+    border: 1px solid #ADF0D1;
+    color: #ADF0D1;
+    font-size: 18px;
+    padding: 22px 25px;
+    border-radius: 5px;
+    max-width: 180px;
+    box-sizing: content-box;
+    margin-top: 20px;
+
+    &:hover {
+        cursor: pointer;
+        background: #ADF0D1;
+        color: #00203F;
+        border: 1px solid #00203F;
+    }
+}
